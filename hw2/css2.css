@@ -1,0 +1,103 @@
+body{
+	font-family: Arial;
+}
+h1{
+	font-size: 36px;
+    line-height: 48px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-style: normal;
+    font-weight: normal;
+    padding: 0 0 6px;
+}
+.wrap {
+	width: 100%;
+	margin:0 auto;
+}
+.logo{
+	float: left;
+	width: 30%;
+	}
+.banner{
+	float: left;
+	width: 70%;
+}
+.product-heading {
+	color: #F8F8FF;
+	border-style: groove;
+	height: 40px;
+	border: none;
+	background-color: #007db1;
+	}
+.product-foto {
+	float: left;
+	width: 50%;
+}
+.product-description{
+	float: right;
+	width: 48%;
+	padding: 10px 10px 15px 15 px;
+	margin: 5px;
+}
+.content {
+	display: block;
+	float: right;
+	width: 68%;
+	padding: 10px 10px 15px 15 px;
+	margin: 5px;
+}
+.model{
+	display: block;
+	float: left;
+	width: 30%;
+	padding: 10px 10px 15px 15 px;
+	margin: 5px;
+}
+#selectvalue{
+	display: block;
+	float: right;
+	width: 68%;
+	padding: 10px 10px 15px 15 px;
+	margin: 5px;
+}
+ul {
+	 list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	color:#000000;
+	border-style: groove;
+	border: none;
+	background-color: #007db1;
+}
+.old-priсe{
+	color: #43AB7C;
+    font-size: 22px;
+	text-decoration: line-through;
+	line-height: 0;
+}
+.priсe{
+	line-height: 0;
+	color: red;
+    font-size: 22px;
+}
+aside{
+	display: block;
+	float: right;
+	width: 30%;
+}
+.contacts{ 
+    color: #999;
+    margin: 30;
+    padding: 10;
+	border: none;
+	line-height: 0;
+}
+.contacts h2:hover{
+	color:#000000;
+}
+footer {
+    flex: 0 0 auto;
+}
