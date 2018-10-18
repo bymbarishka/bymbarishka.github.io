@@ -192,3 +192,8 @@ footer {
     margin-top: 7rem;
   }
 }
+@media (max-width:980px){
+	footer{
+		height:480px;
+	}
+}
